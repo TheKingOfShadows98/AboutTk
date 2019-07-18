@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="home.css">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="shortcut icon" href="imgs/Icon.png" type="image/png">
         <title>Pablo André</title>
     </head>
     <body>
         <header>
-            <nav>
-                <ol>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Portafolio</a></li>
-                    <li><a href="">Eventos</a></li>
-                    <li><a href="">Contactos</a></li>
-                </ol>
-            </nav>
+            <div>
+                <nav>
+                    <ol>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#QuienSoy">QuienSoy</a></li>
+                        <li><a href="#Portafolio">Portafolio</a></li>
+                        <li><a href="./Dibujos/index.html">Mis Dibujos</a></li>
+                        <li><a href="#Eventos">Eventos</a></li>
+                        <li><a href="#Contactos">Contactos</a></li>
+                    </ol>
+                </nav>
+            </div>
     </header>
-        <section>
+        <section id="QuienSoy">
             <h1>
                 Hola Soy Pablo André<br/> Vásquez Romualdo <br/>
                 Programador de videojuegos<br/> JavaScript C# y C++.
             </h1>
-            <img src="imgs/Andy.png" alt="">
+            <figure>
+                    <img src="imgs/.png" alt="Imagen de un proyecto" width="500px" height="300px">
+                </figure>
         </section>
-        <section>
+        <section id="Portafolio">
             <h2>Portafolio (Proyectos)</h2>
+
             <article>
                 <h3>Robot Break</h3>
                 <h6>Unity 3d / videoGame</h6>
                 <p><small><strong>Fecha:</strong>02/19/2018</small></p>
                 <p>Un juego 2d de rompecabezas y plataformas.</p>
                 <p>Descargalo ya en: <strong>thekingofshadows98.itch.io/robot-break</strong></p>
+                <img src="imgs/robot-break.png" alt="Imagen de portada de robot break" width="500px"> 
             </article>
+            
         </section>
-        <section>Sección eventos</section>
-        <section>Sección contactos</section>
+        <section id="Eventos">
+            Mas Experiencia :D<
+            <div id="freeAppsCreatorChallenges">
+                <figure>
+                    <img src="" alt="Imagen de GDT" width="500px">
+                </figure>
+                <h3>#FREEAPPSCREATORCHALLENGE</h3>
+                <p>Evento realizado por 2dEntertaiment</p>
+                <a >Ver participación</a>
+            </div>
+        </section>
+        <section id="Contactos">
+            <form action="index.html">
+                <h3>¿Y si hacemos un muñeco?</h3>
+                <label for="cont">Dime por favor</label>
+                <input type="text" placeholder="Hi what do you mean?" id="cont"/>
+                <input type="submit" value="TOPELO">
+            </form>
+        </section>
         <footer>Footer</footer>
     </body>
 </html>
