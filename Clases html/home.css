@@ -1,0 +1,10 @@
+div{
+    border: 4px;
+    border: solid gray;
+}
+.Container{
+    display: grid;
+}
+.user,.social-media,.item{
+    width: 25%;
+}
