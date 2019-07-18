@@ -1,13 +1,16 @@
-body{
+
+body {
     background:  lightgrey;
 }
-header{
+
+header {
     background: lightgreen;
 }
-#QuienSoy{
+
+#QuienSoy {
     background:lightgoldenrodyellow;
 }
 
-#Portafolio{
-    background:lightskyblue;
+#Portafolio {
+    background:rgb(164, 218, 252);
 }
