@@ -7,7 +7,14 @@ body {
 h1,h2,h3,h4,h5,h6{
     font-family: 'Righteous',serif;
     color: rgb(78, 119, 255);
-    text-shadow: 2px 2px rgb(55, 86, 187);
+    text-shadow: 1px 1px rgb(55, 86, 187);
+}
+h1{
+    font-family: 'Righteous',serif;
+    line-height: 1em;
+    font-weight:normal;
+    letter-spacing: -.8px;
+    text-transform: capitalize;
 }
 p{
     font-family:'Source Sans Pro',serif;
@@ -15,7 +22,17 @@ p{
 header {
     background: lightgreen;
 }
-
+.hero{
+    height: 300px;
+}
+.proyect-details{
+    width: 500px;
+    height: 100px;
+}
+.proyect-image{
+    width: 500px;
+    height: 100px;
+}
 #QuienSoy {
     background:lightgoldenrodyellow;
 }
