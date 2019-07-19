@@ -1,6 +1,7 @@
 
 body {
     background:  lightgrey;
+    color: rgb(85, 85, 85);
 }
 
 header {
@@ -13,4 +14,8 @@ header {
 
 #Portafolio {
     background:rgb(164, 218, 252);
+}
+a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
 }
