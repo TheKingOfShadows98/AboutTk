@@ -33,6 +33,9 @@ header {
     width: 500px;
     height: 100px;
 }
+.header-image{
+    width: 75px;
+}
 #QuienSoy {
     background:lightgoldenrodyellow;
 }
