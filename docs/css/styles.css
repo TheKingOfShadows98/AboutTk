@@ -21,9 +21,19 @@ p{
 }
 header {
     background: lightgreen;
+    margin-left: 1%;
+    margin-right: 1%;  
+}
+section{
+ margin-left: 5%;
+ margin-right: 5%;   
 }
 .hero{
     height: 300px;
+}
+.proyect{
+    background-color: rgb(187, 204, 216);
+    
 }
 .proyect-details{
     width: 500px;
