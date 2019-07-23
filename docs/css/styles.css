@@ -1,5 +1,12 @@
+/* Cosas por Hacer en Css
+-Color de los h's,
+-Color del .hero
+Separacion del menu. 
+Darle Estilo a Events y al formularo de ¿Quieres hacer algo?
+*/
 
 body {
+    background: rgb(242, 255, 225);
     color: rgb(85, 85, 85);
     font-family: 'Indie Flower',serif;
 }
@@ -19,11 +26,14 @@ p{
 header {
     margin: auto;
     width: 80%;
-    padding:15px;
+    padding:2px;
     margin-bottom: 15px;
 }
+section{
+    margin: 0px auto;  
+   }
 /*Bordes*/
-.events, .contact, .events, .hero, header, .proyect, .portfoli{
+.events, .contact, .events, header, .portfoli{
     border-color:black;
     border-width: 1px;
     border-style: solid;
@@ -31,23 +41,32 @@ header {
     background:white;
     box-sizing: border-box;
 }
-
+/*Header flex*/
+.header{
+    display: flex;
+    background: #6B92FF;
+}
+.menu{
+    display: flex;
+    align-items:flex-end;
+}
+.menu li{
+    background: #6B92FF;
+    
+    display: inline-block;
+}
+.menu a{
+    color: white;
+}
 .header-image{
-    width: 75px;
-}
-section{
- margin: 0px 5% 0px 5%;  
-}
-.hero{
-    background: #78B327;
-    padding:15px;
+    width: 50px;
 }
 
-.hero-text{
-    color: #B8FF52;
-    height: 300px;
-    width: 320px;
-    margin:0px 0px 0px 0px;
+.hero{
+    background: #B8FF52;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
 }
 
 .events{
@@ -59,14 +78,22 @@ section{
     margin-top: 15px;
 }
 .portfolio{
+    margin: 0px 0px;
     margin-top: 15px;
-
-    padding: 15px; 
+    background: rgb(238, 226, 223);
+    padding: 5px; 
 }
 
+.hero-text{
+    color: rgb(110, 163, 36);
+    height: 200px;
+    width: 320px;
+    margin:0px 0px 0px 0px;
+}
 
 .hero-imageContainer{
-    height: 300px;
+    float: left;
+    height: 200px;
     width: 200px;
     margin:0px 0px 0px 0px;
 }
@@ -75,13 +102,22 @@ section{
     height: 200px;
 }
 .proyect{
-    height: 500px;
+    height: 400px;
     margin-bottom: 15px;
     padding:15px;
+    display:flex;
+    box-shadow: 0px 0px 5px 0px #6e6e6e;
+    background: white;
+}
+.event-detail{
+    display:flex;
+}
+.event-image{
+    display:flex;
 }
 .proyect-details{
     width: 500px;
-    height: 100px;
+    height: 200px;
 }
 .proyect-image{
     width: 500px;
