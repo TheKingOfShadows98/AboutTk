@@ -6,9 +6,10 @@ Darle Estilo a Events y al formularo de ¿Quieres hacer algo?
 */
 
 body {
-    background: rgb(242, 255, 225);
+    background: rgb(235, 232, 231);
     color: rgb(85, 85, 85);
     font-family: 'Indie Flower',serif;
+    margin:0;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Righteous',serif;
@@ -33,7 +34,7 @@ section{
     margin: 0px auto;  
    }
 /*Bordes*/
-.events, .contact, .events, header, .portfoli{
+ .contact, header, .portfoli{
     border-color:black;
     border-width: 1px;
     border-style: solid;
@@ -64,14 +65,17 @@ section{
 
 .hero{
     background: #B8FF52;
-    padding:5px;
+    padding-left:10px;
+    height: 400px;
     display:flex;
     justify-content: space-between;
+    box-shadow: 0px 0px 5px 0px #464646;
 }
 
 .events{
     margin-top: 15px;
     padding:15px;
+    color: #131313; 
 }
 
 .contact{
@@ -80,41 +84,54 @@ section{
 .portfolio{
     margin: 0px 0px;
     margin-top: 15px;
-    background: rgb(238, 226, 223);
-    padding: 5px; 
+    background: rgb(235, 232, 231);
+    padding-left: 10px;
+    color: #131313; 
 }
 
 .hero-text{
-    color: rgb(110, 163, 36);
-    height: 200px;
-    width: 320px;
+    color: rgb(103, 117, 83);
+    height: 400px;
+    width: 400px;
+    font-size: 18pt;
     margin:0px 0px 0px 0px;
 }
 
 .hero-imageContainer{
-    float: left;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     margin:0px 0px 0px 0px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
 .hero-image{
-    width: 100px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 .proyect{
     height: 400px;
-    margin-bottom: 15px;
+    margin:auto 15px;
+    margin-top:20px;
     padding:15px;
     display:flex;
+    justify-content: space-between;
     box-shadow: 0px 0px 5px 0px #6e6e6e;
     background: white;
+    color: #5f5f5f; 
+}
+.event{
+    margin-bottom: 15px;
+    padding:15px;
+    display: flex;
+    box-shadow: 0px 0px 5px 0px #6e6e6e;
+    background: white;
+    color: #5f5f5f; 
 }
 .event-detail{
-    display:flex;
+    color: #5f5f5f; 
 }
-.event-image{
-    display:flex;
-}
+
 .proyect-details{
     width: 500px;
     height: 200px;
@@ -131,4 +148,23 @@ section{
 a{
     color: rgb(85, 85, 85);
     text-decoration: none;
+}
+.footer{
+    margin: 0;
+    margin-top: 15px;
+    height: 50px;
+    background-color: #3b3b3b;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-image{
+    width: 15px;
+    height: 15px;
+}
+.footer-imageContainer{
+    width:50px;
+    height: 50px;
+    margin-bottom: 0;
 }
