@@ -273,38 +273,3 @@ font-weight: bold;
     margin:0 auto;
     height: inherit;
 }
-@media (max-width: 425px){
-    
-    .hero{
-        width: 100%;
-    }
-    .events{
-
-    }
-    .header{
-        width: 100%;
-        overflow: hidden;
-    }
-    .footer{
-
-    }
-    .container{
-        width: 350px;
-        flex-shrink: 0;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .hero-imageContainer{
-        width: 150px;
-        height: 150px;
-    }
-    .hero-text{
-        font-size: 14pt;
-        height: 200px;
-    }
-    .hero-image{
-        width: inherit;
-        height: inherit;
-    }
-
-}
