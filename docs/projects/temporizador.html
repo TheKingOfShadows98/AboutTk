@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="time-inputs">
+        <input type="text" name="time" id="time" value="15"/>
+        <button id="start">Iniciar</button>
+    </div>
+    <p id="time-remained"> 14s</p>
+    <embed src="" autostart = "false" id="alarma"/>
+</body>
+<script>
+    // declaracion de variables
+let numero = document.getElementById('time').value;
+let MostrarTiempo = document.getElementById('time-remained');
+let Alarma = document.getElementById('alarma');
+
+function Empezar(){
+    numero = document.getElementById('time').value;
+    let tiempo = numero * 1000;
+    MostrarTiempo.innerHTML = `Tiempo: ${numero}`;
+} 
+
+</script>
+</html>
