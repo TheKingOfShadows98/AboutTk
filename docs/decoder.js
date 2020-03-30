@@ -23,18 +23,18 @@ function loadDoc() {
 
 // reemplaza las definiciones ej(Titulo:) a formato html
 function remplazarCont(rawContent) {
-    if(rawContent.include('Titulo:')){
+    if(rawContent.includes('Titulo:')){
         Contenido += rawContent.replace('Titulo:', '<h2 class = "titulo-texto">') + '</h2>';
     }
-    if(rawContent.include('narrador:')){
+    if(rawContent.includes('narrador:')){
         Contenido += rawContent.replace('narrador:','<p class = "narrador-texto">') + '</p>';
     }
     
-    if(rawContent.include('dialogo:')){
+    if(rawContent.includes('dialogo:')){
         Contenido += rawContent.replace('dialogo:','<p class = "dialogo-texto">') + '</p>';
     }
     
-    if(rawContent.include('acotacion:')){
+    if(rawContent.includes('acotacion:')){
         Contenido += rawContent.replace('acotacion:','<p class = "acotacion-texto">') + '</p>';
     }
 
