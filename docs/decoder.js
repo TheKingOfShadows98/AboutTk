@@ -14,6 +14,7 @@ function loadDoc() {
     xmlhttp.send();
     remplazarCont(txt);
     let contenido = txt.split(';');
+    Console.log(contenido);
     contenido.map(x => remplazarCont(x));
     contenedor.innerHTML += Contenido;
 }
@@ -23,6 +24,8 @@ function loadDoc() {
 
 // reemplaza las definiciones ej(Titulo:) a formato html
 function remplazarCont(rawContent) {
+    rawContent = (string)rawContent;
+    Console.log(rawContent);
     if(rawContent.includes('Titulo:')){
         Contenido += rawContent.replace('Titulo:', '<h2 class = "titulo-texto">') + '</h2>';
     }
