@@ -1,0 +1,8 @@
+Titulo:La historia de dos hermanos;
+
+dialogo:Los dos tenían muchos días mojando la cama donde dormían juntos por las noches,
+incluso también se orinaban en las siestas
+que tomaban por las tardes en casa, cuando
+terminaban de comer y las tareas escolares.;
+acotacion:[Los dos hermanos ansiaban usar pañales];
+narrador: Esta es una prueba de un script;
