@@ -12,10 +12,9 @@ function loadDoc() {
     };
     xmlhttp.open("GET","stories/historia.txt",true);
     xmlhttp.send();
-    remplazarCont(txt);
     let contenido = txt.split(';');
     Console.log(contenido);
-    contenido.map(x => remplazarCont(x));
+    //contenido.map(x => remplazarCont(x));
     contenedor.innerHTML += Contenido;
 }
 
@@ -42,6 +41,6 @@ function remplazarCont(rawContent) {
     }
 
 }
-var Contenido;
+var Contenido = "";
 var contenedor = document.getElementById('contenedor');
 loadDoc();
