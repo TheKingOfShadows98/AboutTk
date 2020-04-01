@@ -1,13 +1,14 @@
 
 function loadDoc(NameDoc) {
-    var url = "stories/"+ NameDoc + ".txt";
+    var direccion = "stories/"+ NameDoc + ".txt";
+    console.log(direccion);
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         organizar(this.responseText);
       }
     };
-    xhttp.open("GET", url, true);
+    xhttp.open("GET", direccion, true);
     xhttp.send();
 }
 function organizar (texto_plano){
@@ -33,7 +34,7 @@ function reemplazar(str) {
     res = str.replace("narrador:", '<p class = "narrador-texto">');
     res += "</p>";
 }
-    contenedor.innerHTML += res;
+    contenedor.innerHTML += "" +res;
 }
 
 var contenedor = document.getElementById('demo');
