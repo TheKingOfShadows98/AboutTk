@@ -1,9 +1,3 @@
-// let archivo = document.getElementById("Archivo");
-// archivo.addEventListener(onchange,ini);
-// function ini(){
-//     readTextFile(archivo.value);
-//     alert("el archivo cambio");
-// }
 
 function loadDoc(NameDoc) {
     var url = "stories/"+ NameDoc + ".txt";
