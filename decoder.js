@@ -1,9 +1,3 @@
-// let archivo = document.getElementById("Archivo");
-// archivo.addEventListener(onchange,ini);
-// function ini(){
-//     readTextFile(archivo.value);
-//     alert("el archivo cambio");
-// }
 
 function loadDoc() {
     var xhttp = new XMLHttpRequest();
@@ -24,7 +18,6 @@ function organizar (texto_plano){
 function reemplazar(str) {
     let res = "";
     if(str.includes("Titulo:")){
-        document.getElementById("PageTitle").innerHTML = str.replace("Titulo:","");
         res = str.replace("Titulo:", '<h2 class= "titulo">')
         res += "</h2>";
     }else if(str.includes("dialogo:")){
