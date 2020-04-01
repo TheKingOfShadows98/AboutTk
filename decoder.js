@@ -35,14 +35,17 @@ function reemplazar(str) {
         res = str.replace("dialogo:", '<p class = "dialogo-texto">');
         res += "</p>";
     }
-    if(str.includes("acotacion:")){
+    else if(str.includes("acotacion:")){
       res = str.replace("acotacion:", '<p class = "acotacion-texto">');
       res += "</p>";
-  }
-  if(str.includes("narrador:")){
+    }
+    else if(str.includes("narrador:")){
     res = str.replace("narrador:", '<p class = "narrador-texto">');
     res += "</p>";
-}
+    }
+    else if(str.includes("subtitulo:")){
+        res = str.replace("subtitulo:", '<h3 class= "subtitulo">')
+        res += "</h3>";
     contenedor.innerHTML += "" +res;
 }
 
