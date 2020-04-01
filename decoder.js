@@ -1,15 +1,17 @@
 var contenedor = document.getElementById('demo');
+var NameDoc ="";
 
 function ini() {
     contenedor = document.getElementById('demo');
+    NameDoc = contenedor.innerText;
     contenedor.innerHTML = "";
 }
 
-function loadDoc(NameDoc) {
+function loadDoc() {
     ini();
     let direccion = "stories/"+ NameDoc + ".txt";
     console.log(direccion);
-    var xhttp = new XMLHttpRequest();
+    let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         organizar(this.responseText);
