@@ -1,13 +1,13 @@
-Titulo:La historia de dos hermanos;
+Titulo:La historia de dos hermanos<
 
 dialogo:Los dos tenían muchos días mojando la cama donde dormían juntos por las noches,
 incluso también se orinaban en las siestas
 que tomaban por las tardes en casa, cuando
 terminaban de comer y las tareas escolares.
-|
+<
 dialogo:Jackson y Bill tenían hartos a sus dos padres, pues los dos adultos, tenían que turnarse para poder lavar a tiempo y a diario las sábanas húmedas de sus dos chicos, y por estar cansados y necesitar tiempo para lavar sábanas, una mañana decidieron por que sus dos hijos usaran pañales para estar en casa y para dormir.
-|
+<
 narrador:Fue así que otra mañana, a primera hora, el padre de los dos niños salió en su auto a la compra de los pañales y los demás utensilios. Se fue en su auto al supermercado, y llegando al lugar, primero echó al carrito de compras las cosas que hacían falta para su casa. Mientras lo hacía, se encontró con unos amigos suyos de su empresa donde trabajaba, por lo que se dilataron veinte minutos conversando en los pasillos donde vendían productos de limpieza. Seguido que terminaron, se dieron un abrazo y cada quien continuó con sus respectivas compras, las que eran el encargo de sus esposas.
-|
-acotacion:[Los dos hermanos ansiaban usar pañales]|
-narrador: Esta es una prueba de un script|
+<
+acotacion:[Los dos hermanos ansiaban usar pañales]<
+narrador: Esta es una prueba de un script<
