@@ -1,6 +1,12 @@
 var contenedor = document.getElementById('demo');
-function loadDoc(NameDoc) {
+
+function ini() {
+    contenedor = document.getElementById('demo');
     contenedor.innerHTML = "";
+}
+
+function loadDoc(NameDoc) {
+    ini();
     let direccion = "stories/"+ NameDoc + ".txt";
     console.log(direccion);
     var xhttp = new XMLHttpRequest();
