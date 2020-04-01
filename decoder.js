@@ -46,4 +46,4 @@ function reemplazar(str) {
     contenedor.innerHTML += "" +res;
 }
 
-
+loadDoc();
