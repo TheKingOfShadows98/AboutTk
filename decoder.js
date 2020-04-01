@@ -1,6 +1,7 @@
-
+var 
 function loadDoc(NameDoc) {
-    var direccion = "stories/"+ NameDoc + ".txt";
+    contenedor = document.getElementById('demo');
+    let direccion = "stories/"+ NameDoc + ".txt";
     console.log(direccion);
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -37,4 +38,4 @@ function reemplazar(str) {
     contenedor.innerHTML += "" +res;
 }
 
-var contenedor = document.getElementById('demo');
+
