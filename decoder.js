@@ -46,8 +46,8 @@ function reemplazar(str) {
     else if(str.includes("subtitulo:")){
         res = str.replace("subtitulo:", '<h3 class= "subtitulo">')
         res += "</h3>";
-    contenedor.innerHTML += "" +res;
     }
+    contenedor.innerHTML += "" +res;
 }
 
 loadDoc();
