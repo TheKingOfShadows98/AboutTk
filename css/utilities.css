@@ -40,17 +40,22 @@ header{
 }
 .Cuento-Section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    background-color: #1259B3;
-    padding-top: 50px;
+    background-color: rgb(20, 20, 20);
+    padding-top: 30px;
 }
 .Cuento-Container{
+    
+    background-color: rgb(39, 39, 39);
     display: flex;
     border-radius: 5px;
     /* border: solid black 2px;
     box-shadow: inset 0px 0px 15px 0px black; */
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
     width: 1000px;
     justify-content: inherit;
 }
@@ -83,12 +88,12 @@ header{
     width: 250px;
     border-radius: 15px;
     box-shadow: black 0px 3px 1px 1px ;
-    background-color:#0D78FF;
+    background-color:rgb(206, 87, 18);
     height: 75px;
 }
 .botton-mas:hover{
     transform: translate3d(0px,2px,0px);
-    background-color:rgb(17, 73, 146);
+    background-color:rgb(199, 58, 15);
     box-shadow:inset black 0px 1px 1px 1px ;
 }
 .botton-mas a{

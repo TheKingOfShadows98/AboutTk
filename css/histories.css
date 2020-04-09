@@ -92,7 +92,7 @@ p{
 .historia-container{
     display: flex;
     max-width: inherit;
-    background-color: #7712B3;
+    background-color: rgb(39, 39, 39);
     justify-content: center;
     
 }
@@ -101,7 +101,7 @@ h2,h3{
     text-align: center;
 }
 p{
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 .contenido{
     padding: 0 30px;
@@ -120,9 +120,10 @@ p{
 }
 .dialogo-texto{
     font-family: sans-serif;
+    color: rgb(233, 233, 233);
 }
 .narrador-texto{
-    color: gold;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     line-height:  1rem;
     text-shadow: 1px 1px 1px black;
