@@ -1,72 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./sources/stylesheet.css">
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Indie+Flower|Righteous|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/utilities.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="PageTitle">Diaplix-Cuentos e Historias</title>
-</head>
+    <!--Cosas que hacer:
+    Hacer dibujo de para el Hero, tambien para el menu.
+    Hacer dibujo de portada de a Tale of one's.
+    Hacer dibujo del evento del freeappscreatorschalllenges.
+    empezar js.
+    -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Righteous|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link id="Main_Style" rel="stylesheet" href="./css/desktop-styles.css" /><!--Link que vamos a midificar-->
+        
+        <link rel="shortcut icon" href="imgs/Icon.png" type="image/png">
+        
+        <title>Pablo André Blog</title>
+    </head>
     <body>
-        <div class="sombra">
-            <header>
-                <div class="Nombre">
-                    <h1 class="Encabezado-Titulo">Diaplix</h2>
-                    <div class="linea"></div>
+<!--Menu-->        
+        <header class="header">
+            <div class="container">
+                <figure class="header-imageContainer">
+                    <img class="header-image" src="imgs/tk-logo.png" alt="Andy Feliz">
+                </figure>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#QuienSoy" style="transition: all 0.2s linear;">QuienSoy</a></li>
+                        <li><a href="#Portafolio">Portafolio</a></li>
+                        <li><a href="https://www.deviantart.com/thekingofshadows99">Mis Dibujos</a></li>
+                        <li><a href="#Eventos">Eventos</a></li>
+                        <li><a href="#Contactos">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+<!--QuienSoy-->
+        <section id="QuienSoy" class = "hero">
+            <div class="container">          
+                <div class="hero-text">
+                    <h1>
+                        Hola, Soy Pablo André 
+                        Vásquez Romualdo
+                        Programador de videojuegos,
+                        JavaScript,
+                        C#, C++
+                        Y dibujante en su tiempo libre.
+                    </h1>
                 </div>
-                <br>
-                <article class="Hero-Container">
-                    <h2 class="Hero-Text">Historias y Cuentos de Heroes en PAÑALES</h2>
-                </article>
-            </header>
-            <section class="Cuento-Section">
-                <article class="Cuento-Container">
-                    <h3 class="Cuento-Titulo">Los dos hemanos</h3>
-                    <figure class="Cuento-Imagen-Container">
-                        <img src="./img/LHDH-Portada.png" alt="" class="Cuento-Img-Portada">
-                    </figure>
-                    <div class="Cuento-Contenido">
-                        <p class="Cuento-Texto">
-                            <font class="Cuento-Texto inicial">Esta</font>
-                              es la historia de dos hermanos llamados Jackson y Bill de diez años de edad.
-                        </p>
-                        <p class="Cuento-Texto">
-                            Los dos tenían muchos días mojando la cama donde dormían juntos por las noches, incluso también se orinaban en las siestas que tomaban por las tardes en casa, cuando terminaban de comer y las tareas escolares.
-                            Jackson y Bill tienen hartos a sus dos padres, pues los dos adultos, tenían que turnarse para poder lavar a tiempo y a diario las sábanas húmedas de sus dos chicos, y por estar cansados y necesitar tiempo para lavar sábanas, una mañana decidieron por que sus dos hijos usarán pañales para estar en casa y para dormir.
-                        </p>
-                    </div>
-                    <div class="botton-mas">
-                    <a href="./LHDH.html">
-                        <font class="text-mas">Continuar</font>
-                        <img src="./img/plus-icon.png" alt="Mas" class="image-mas">
-                    </a>
-                    </div>
-                </article>
+                <figure class="hero-imageContainer">
+                    <img class="hero-image" src="imgs/Andy-chibi.png" alt="Andy timido" width="500px" height="300px">
+                </figure>
+            </div>
+        </section>
+        <!--Portafolio-->
+        <section id="Portafolio" class = "portfolio">
+            <div class="container">
 
-                <article class="Cuento-Container">
-                    <h3 class="Cuento-Titulo">La Escuala Magica</h3>
-                    <figure class="Cuento-Imagen-Container">
-                        <img src="./img/LEM-Portada.png" alt="" class="Cuento-Img-Portada">
+                <h2>Mis Proyectos</h2>
+             
+                <article class="proyect">
+                 <div class="proyect-details">
+                     <h3 class="proyect-title">Robot Break</h3>
+                     <h6 class="proyect-subtitle">Unity 3d / videoGame / itch.io</h6>
+                     <p class="proyect-date"><small><strong>Fecha:</strong>02/19/2018</small></p>
+                     <p class="proyect-url">Descargalo ya en: <strong><a href="https://thekingofshadows98.itch.io/robot-break">Thekingofshadows98/robot-break</a></strong></p>
+                     <p class="pryect-description">Un juego 2d de rompecabezas y plataformas.</p>
+                    </div>
+                    <figure class="proyect-image">
+                        <img src="imgs/robot-break.png" alt="Imagen de portada de robot break" width="500px"> 
                     </figure>
-                    <div class="Cuento-Contenido">
-                        <p class="Cuento-Texto">
-                            <font class="Cuento-Texto inicial">Los</font>
-                             tres pequeños magos
-                        </p>
-                        <p class="Cuento-Texto">
-                            Tres amigos que por su curiosidad se embarcaran en una aventura entre pañales y peluches.
-                        </p>
-                    </div>
-                    <div class="botton-mas">
-                    <a href="./LEM.html">
-                        <font class="text-mas">Continuar</font>
-                        <img src="./img/plus-icon.png" alt="Mas" class="image-mas">
-                    </a>
-                    </div>
                 </article>
-            </section>
-        </div>
+                
+                <article class="proyect">
+                    <div class="proyect-details">
+                        <h3 class="proyect-title">Karcentient: El hijo del Héroe.</h3>
+                        <h6 class="proyect-subtitle">Wattpad/ Historia</h6>
+                        <p class="proyect-date"><small><strong>Fecha:</strong>aun en creación</small></p>
+                        <p class="proyect-url">Miralo en: <strong><a href="https://www.wattpad.com/712023023-karcentient-el-hijo-del-h%C3%A9roe-hab%C3%ADa-una-vez">Wattpad/Karcentient1</a></strong></p>
+                        <p class="pryect-description">Narra la historia detrás de el hijo de un el Héroe encargado de finalizar la guerra de las sombras ocurridas en Karcentient.</p>
+                    </div>
+                    <figure class="proyect-image">
+                        <img src="imgs/ATOO.png" alt="A tale of one's" width="500px"> 
+                    </figure>
+                </article>    
+            </div>       
+        </section>
+<!--Eventos-->
+        <section id="Eventos" class="events">
+            <div class="container">
+                <h3>Mas Experiencia :D</h3>
+                <article id="freeAppsCreatorChallenges" class="event">
+                    <div class="event-detail">
+                        <h3 class="event-title">#FREEAPPSCREATORCHALLENGE</h3>
+                        <p class="event-description">Evento realizado por 2dEntertaiment</p>
+                        <a class="event-url">Ver participación</a>
+                    </div>
+                    <figure class="event-image">
+                        <img src="./imgs/GDT.png" alt="Imagen de GDT" width="500px">
+                    </figure>
+                </article>
+            </div>
+        </section>
+<!--Contactos-->
+        <section id="Contactos" class="contact">
+            <div class="container">
+                <form action="index.html" class="form">
+                    <h3>¿Quieres hacer algo conmigo?</h3>
+                    <div class="form-detail">
+                        <label for="cont">Explicame tu idea</label><br>
+                        <input type="text" placeholder="motivo" id="cont"/>
+                        <input type="email" name="" id="e-mail" placeholder="sample@gmail.com"/>
+                        <br>
+                        <div class="form-enviar">    
+                            <input type="submit" class="submit" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+                <div class="social">
+                    <a href="https://github.com/TheKingOfShadows98" class="social-link github"></a>
+                    <a href="https://thekingofshadows98.itch.io/" class="social-link itchio"></a>
+                    <!-- <a href="" class="social-link youtube"></a> -->
+                    <a href="https://www.twitch.tv/thekingofshadows98/" class="social-link twitch"></a>
+                </div>
+            </div>
+        </section>
+<!--Pie De Paguina-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text">
+                    <p>Desarrollado por Pablo André Vásquez Romualdo</p>
+                </div>
+                <figure class="footer-imageContainer">
+                    <img class="footer-image" src="" alt="Tk logo"/>
+                </figure>
+            </div>
+        </footer>
     </body>
 </html>

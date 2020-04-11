@@ -5,11 +5,16 @@ Separacion del menu.
 Darle Estilo a Events y al formularo de ¿Quieres hacer algo?
 */
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background: rgb(235, 232, 231);
     color: rgb(85, 85, 85);
     font-family: 'Indie Flower',serif;
     margin:0;
+    scroll-behavior: smooth;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Righteous',serif;
@@ -31,7 +36,7 @@ header {
     margin-bottom: 15px;
 }
 section{
-    margin: 0px auto;  
+    margin: 0px auto;
    }
 
 /*Header flex*/
@@ -94,7 +99,7 @@ section{
     margin-top: 15px;
     background: rgb(235, 232, 231);
     padding-left: 10px;
-    color: #131313; 
+    color: #131313;
 }
 
 .hero-text{

@@ -91,24 +91,40 @@ p{
 }
 .historia-container{
     display: flex;
-    background-color: #7712B3;
+    max-width: inherit;
+    background-color: rgb(39, 39, 39);
     justify-content: center;
     
 }
+
+h2,h3{
+    text-align: center;
+}
+p{
+    margin-bottom: 8px;
+}
 .contenido{
-    padding: 0 15px;
+    padding: 0 30px;
     width: 1000px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 5px;
+    padding-bottom: 50px;
+}
+.subtitulo{
+    color: rgb(174, 252, 255);
+    font-size: 20pt;
 }
 .acotacion-texto{
     font-style: italic;
+    color: rgb(185, 185, 185);
 }
 .dialogo-texto{
     font-family: sans-serif;
+    color: rgb(233, 233, 233);
 }
 .narrador-texto{
-    color: gold;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
+    line-height:  1rem;
     text-shadow: 1px 1px 1px black;
 }
