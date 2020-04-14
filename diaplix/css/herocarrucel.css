@@ -1,6 +1,6 @@
 .Hero
 {
-    background-color: black;
+    background-color: rgb(68, 68, 68);
     display: flex;
     flex-wrap: wrap;
     overflow: overlay;
@@ -16,7 +16,7 @@
 }
 .contenedor-carousel
 {
-    width: 900px;
+    width: 990px;
 	padding: 20px 0;
 	overflow: hidden;
 	scroll-behavior: smooth;
@@ -45,10 +45,12 @@
     flex-wrap: wrap;
     text-decoration: none;
     transition: 1s;
+    margin:0px 15px;
+    -webkit-margin-collapse: collapse;
 }
 .hero_art:hover{
     
-    transform: translateX(5%) translateZ(1px) scale3d(1.1,1.1,1);
+    transform: translateZ(1px) scale3d(1.1,1.1,1);
     transition: 1s;
 }
 
