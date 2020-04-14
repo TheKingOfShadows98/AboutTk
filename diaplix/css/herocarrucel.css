@@ -18,7 +18,7 @@
 {
     width: 900px;
 	padding: 20px 0;
-	overflow: overlay;
+	overflow: hidden;
 	scroll-behavior: smooth;
 }
 .arrow-b
