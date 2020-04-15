@@ -122,3 +122,14 @@ Morado Claro: #A50DFF
 
 
 */
+footer{
+    background: darkblue;
+    color: gold;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+footer h2{
+    display: flex;
+
+}
