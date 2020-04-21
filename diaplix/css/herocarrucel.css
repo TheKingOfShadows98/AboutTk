@@ -34,6 +34,7 @@
     height: 240px;
     flex-wrap: nowrap;
     position: relative;
+    padding-right: 30px;
 }
 
 .hero_art
@@ -45,12 +46,13 @@
     flex-wrap: wrap;
     text-decoration: none;
     transition: 1s;
-    margin:0px 15px;
+    margin:0px 0px;
     -webkit-margin-collapse: collapse;
 }
 .hero_art:hover{
     
-    transform: translateZ(1px) scale3d(1.1,1.1,1);
+    transform:scale3d(1.1,1.1,1);
+    margin: 0px 15px 0px 15px;
     transition: 1s;
 }
 
