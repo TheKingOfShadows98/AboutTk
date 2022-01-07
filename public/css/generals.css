@@ -1,0 +1,35 @@
+body *{
+    margin: 0;
+}
+
+section *{
+    display: inherit;
+}
+
+section{
+    display:  flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+h1, h2,h3{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{  
+    font-size: 2.5rem;
+}
+h2{  
+    font-size: 2.0rem;
+}
+h3{  
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Varela Round', sans-serif;
+}
+.italic{
+    font-family: 'Nunito Sans', sans-serif;
+}

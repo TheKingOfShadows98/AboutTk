@@ -1,0 +1,39 @@
+
+
+
+.GameSection{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.GameSection .TitleWrapper{
+    justify-content: center;
+}
+.GameSection .GameCard{
+    margin-top: 1rem;
+    width: 80%;
+    align-self: center;
+    
+    flex-direction: column;
+}
+.GameCard{
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    padding: .5em 20px;
+}
+
+.GameCard *{
+    padding-bottom: 5px;
+    color: white;
+}
+.GameCard .title{
+    text-decoration: underline;
+}
+.GameCard .description{
+    padding:  inherit 10px;
+    padding-bottom: 1rem;
+}
+
+.GameCard .widget-wrapper{
+    align-self: center;
+}
