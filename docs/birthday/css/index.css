@@ -46,19 +46,26 @@ body{
     justify-content: center;
     position: relative;
     top: 1000px;
-    animation-name: cakeMove;
+    /* animation-name: cakeMove;
     animation-delay: 3s;
     animation-duration: 10s;
     
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 .cake-img{
     z-index:0;
 }
 
 .name{
-    animation: nameColor 3s infinite;
+    /* animation: nameColor 3s infinite; */
 }
+.Play{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border:none;
+}
+
 @keyframes cakeMove {
     0%{
         top: 1000px;
