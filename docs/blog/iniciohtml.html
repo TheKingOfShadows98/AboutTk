@@ -1,4 +1,6 @@
-<html lang="es"><head>
+<html lang="es">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +9,19 @@
 
     <link rel="stylesheet" href="./prismjs/prism.css">
 </head>
+
 <body>
     <section class="main">
-        <div id="body"><h1 id="todoloquetienesquesaberdehtml">Todo lo que tienes que saber de html</h1>
-<hr>
-<h2 id="introduccion">Introduccion</h2>
-<p>Html es un tipo de archivo para la web, este coprende la estructura base de toda pagina web.</p>
-<p>El html se compone por grupos de datos llamados etiquetas que se representan porque estan entre un "&lt;" y "&gt;".</p>
-<p>Cada etiqueta cumple su propia funcion, las mas usadas son los divisores los parrafos las listas y las imagenes. Existen muchas mas y dependera de cada proyecto o cada pagina cuales vas a utilizar.</p>
-<pre><code class="html language-html">    &lt;!-- Divisores --&gt;
+        <div id="body">
+            <h1 id="todoloquetienesquesaberdehtml">Todo lo que tienes que saber de html</h1>
+            <hr>
+            <h2 id="introduccion">Introduccion</h2>
+            <p>Html es un tipo de archivo para la web, este coprende la estructura base de toda pagina web.</p>
+            <p>El html se compone por grupos de datos llamados etiquetas que se representan porque estan entre un "&lt;"
+                y "&gt;".</p>
+            <p>Cada etiqueta cumple su propia funcion, las mas usadas son los divisores los parrafos las listas y las
+                imagenes. Existen muchas mas y dependera de cada proyecto o cada pagina cuales vas a utilizar.</p>
+            <pre><code class="html language-html">    &lt;!-- Divisores --&gt;
     &lt;div&gt; &lt;/div&gt;
     &lt;!-- Parrafos --&gt;
     &lt;p&gt; &lt;/p&gt;
@@ -24,133 +30,89 @@
     &lt;!-- img --&gt;
     &lt;img&gt;
 </code></pre>
-<p>La mayoria de etiquestas deben cerrarse de la siguiente manera:</p>
-<pre><code class="html language-html">    &lt;/ + nombre de la etiqueta + &gt;
+            <p>La mayoria de etiquestas deben cerrarse de la siguiente manera:</p>
+            <pre><code class="html language-html">    &lt;/ + nombre de la etiqueta + &gt;
 </code></pre>
-<p>Ejemplo:</p>
-<pre><code class="html language-html">    &lt;!-- Ejemplo de cierre --&gt;
+            <p>Ejemplo:</p>
+            <pre><code class="html language-html">    &lt;!-- Ejemplo de cierre --&gt;
     &lt;div&gt; &lt;/div&gt;
 </code></pre>
-<hr>
-<h2 id="atributos">Atributos</h2>
-<p>Las etiquetas aparete de agrupar contenido, tienen ciertas caracteristicas que modifican su funcionamiento o su estetica. a estos se les conoce como <em><strong>atributos</strong></em></p>
-<p>Para colocar un atributo a una etiqueta se debe posicionar Despues del <strong>nombre</strong>, Dar un <strong>espacio</strong> y escribir el <strong>nombre del atributo</strong> junto a un "<strong>=</strong>" y una apertura de comillas <strong><em>""</em></strong></p>
-<pre><code class="html language-html">    &lt;!-- Ejemplo de atributo --&gt;
+            <hr>
+            <h2 id="atributos">Atributos</h2>
+            <p>Las etiquetas aparete de agrupar contenido, tienen ciertas caracteristicas que modifican su
+                funcionamiento o su estetica. a estos se les conoce como <em><strong>atributos</strong></em></p>
+            <p>Para colocar un atributo a una etiqueta se debe posicionar Despues del <strong>nombre</strong>, Dar un
+                <strong>espacio</strong> y escribir el <strong>nombre del atributo</strong> junto a un
+                "<strong>=</strong>" y una apertura de comillas <strong><em>""</em></strong>
+            </p>
+            <pre><code class="html language-html">    &lt;!-- Ejemplo de atributo --&gt;
     &lt;div class=""&gt; &lt;/div&gt;
 </code></pre>
-<p>La declaracion de atributos solo tiene que ser en la etiqueta de cierre (la que no tiene la /) y cada atributo tiene que estar sepadado por espacios</p>
-<pre><code class="html language-html">    &lt;!-- Ejemplo de multiples atributos --&gt;
+            <p>La declaracion de atributos solo tiene que ser en la etiqueta de cierre (la que no tiene la /) y cada
+                atributo tiene que estar sepadado por espacios</p>
+            <pre><code class="html language-html">    &lt;!-- Ejemplo de multiples atributos --&gt;
     &lt;div class="" style="" id=""&gt;&lt;/div&gt;
 </code></pre>
-<p>Uno de estos atributos que mas se usan son el "<strong>class</strong>" y el "<strong>id</strong>", que si bien no añaden una funcionalidad, son utlilizados para idenfiticar esa etique en un grupo o de manera unica.</p>
-<hr>
-<h2 id="atributoclass"><strong>Atributo class</strong></h2>
-<p>El Atributo class nos permite agrupar nuestras etiqueta en un conjunto aparte, esto se usa frecuentemente para darle estilos y transformaciones.</p>
-<p>Para aplicar una class se tiene que declarar el atributo y en las comillas el nobre de la class a la que desee que pertenesca la etiqueta.</p>
-<pre><code class="html language-html">    &lt;!-- Ejemplo de class --&gt;
+            <p>Uno de estos atributos que mas se usan son el "<strong>class</strong>" y el "<strong>id</strong>", que si
+                bien no añaden una funcionalidad, son utlilizados para idenfiticar esa etique en un grupo o de manera
+                unica.</p>
+            <hr>
+            <h2 id="atributoclass"><strong>Atributo class</strong></h2>
+            <p>El Atributo class nos permite agrupar nuestras etiqueta en un conjunto aparte, esto se usa frecuentemente
+                para darle estilos y transformaciones.</p>
+            <p>Para aplicar una class se tiene que declarar el atributo y en las comillas el nobre de la class a la que
+                desee que pertenesca la etiqueta.</p>
+            <pre><code class="html language-html">    &lt;!-- Ejemplo de class --&gt;
     &lt;div class=" class "&gt;&lt;/div&gt;
 </code></pre>
-<p>El atributo soporta multiples classes para eso, dentro de las comillas se tienen que colocar separadas por espacios</p>
-<pre><code class="html language-html">    &lt;!-- Ejemplo de class --&gt;
+            <p>El atributo soporta multiples classes para eso, dentro de las comillas se tienen que colocar separadas
+                por espacios</p>
+            <pre><code class="html language-html">    &lt;!-- Ejemplo de class --&gt;
     &lt;div class=" class-1 class-2 "&gt;&lt;/div&gt;
 </code></pre>
-<p><em>Es importante destacar que los nobres de las clases no pueden contener espacios, porque estos serian interpretados como dos clases distintas para solucionarlo puedes usar un guionmedio "-"</em></p>
-<pre><code class="html language-html">    &lt;!-- Ejemplo Eroneo --&gt;
+            <p><em>Es importante destacar que los nobres de las clases no pueden contener espacios, porque estos serian
+                    interpretados como dos clases distintas para solucionarlo puedes usar un guionmedio "-"</em></p>
+            <pre><code class="html language-html">    &lt;!-- Ejemplo Eroneo --&gt;
     &lt;div class=" class 1"&gt;&lt;/div&gt;
 
     &lt;!-- Ejemplo Correcto --&gt;
     &lt;div class=" class-1"&gt;&lt;/div&gt;
     &lt;div class=" class1"&gt;&lt;/div&gt;
 </code></pre>
-<hr>
-<h2 id="atributtoid">Atributto id</h2>
-<p>El atributo id es parecido al class, solo que este debe ser unico y sirve para identificar de manera exacta a una etiqueta, esto es muy util al momento de añadir interactividad e nuestra pagina web.</p>
-<pre><code class="html language-html">    &lt;!-- Ejemplo id --&gt;
+            <hr>
+            <h2 id="atributtoid">Atributto id</h2>
+            <p>El atributo id es parecido al class, solo que este debe ser unico y sirve para identificar de manera
+                exacta a una etiqueta, esto es muy util al momento de añadir interactividad e nuestra pagina web.</p>
+            <pre><code class="html language-html">    &lt;!-- Ejemplo id --&gt;
     &lt;div id="identificador"&gt;&lt;/div&gt;
 </code></pre>
-<p><em>Es recomendable tener un solo identificador por etiqueta y que cada identificador sea unico. Si necesitas englobarlos en un grupo a varias etiquetas usa <strong>class</strong></em></p>
-<hr>
-<h2 id="insertarimagenes">Insertar imagenes</h2>
-<p>Cuando vemos cualquier pagina web, es dificil no notar alguna imagen en el escenario, eso es porque es una parte muy escencial de la web.</p>
-<p>Nosotros podemos insertar nuestras propias imagenes usando la etiqueta img, de la siguiente manera.</p>
-<p>Sintaxis.</p>
-<pre><code class="html language-html">    &lt;!--Declaracion de una imagen --&gt;
+            <p><em>Es recomendable tener un solo identificador por etiqueta y que cada identificador sea unico. Si
+                    necesitas englobarlos en un grupo a varias etiquetas usa <strong>class</strong></em></p>
+            <hr>
+            <h2 id="insertarimagenes">Insertar imagenes</h2>
+            <p>Cuando vemos cualquier pagina web, es dificil no notar alguna imagen en el escenario, eso es porque es
+                una parte muy escencial de la web.</p>
+            <p>Nosotros podemos insertar nuestras propias imagenes usando la etiqueta img, de la siguiente manera.</p>
+            <p>Sintaxis.</p>
+            <pre><code class="html language-html">    &lt;!--Declaracion de una imagen --&gt;
     &lt;img src="url-de-la-imagen"&gt;
 </code></pre>
-<p>adicionalmente a esto podemos añadirle un atributo <strong>"alt"</strong> que permitirá colocar un texto a la imagen si esta no ha cargado o no se encontro.</p>
-<pre><code class="html language-html">    &lt;!--Uso de img con alt --&gt;
+            <p>adicionalmente a esto podemos añadirle un atributo <strong>"alt"</strong> que permitirá colocar un texto
+                a la imagen si esta no ha cargado o no se encontro.</p>
+            <pre><code class="html language-html">    &lt;!--Uso de img con alt --&gt;
     &lt;img src="foto.png" alt="perfil"&gt;
-</code></pre></div>
-    </section>
-    <footer>
-        <div>
-            💜 Esta Pagina fue creada por mi procesador de MD a HTML 💜<br>
-            Blog Personal de Theking Of Shadows 98.
+</code></pre>
+            <script src="./prismjs/prism.js"></script>
         </div>
-    </footer>
+    </section>
+    <div>
+        💜 Esta Pagina fue creada por mi procesador de MD a HTML 💜<br>
+        Blog Personal de Theking Of Shadows 98.
+    </div>
 
-    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500&display=swap');
+    <style></style>
 
-        body{
-            background-color: rgb(225, 239, 248);
-            font-family: 'Roboto', sans-serif;
-            color: rgb(52, 52, 74);
-            margin: 0;
-        }
-        /* Standard Styles */
-        h1{
-            font-size: 2.5em;
-            text-align: center;
-            color: rgb(98, 98, 163);
-        }
-        
-        h2{
-            font-size: 2em;
-            color: rgb(81, 81, 126);
-        }
-        
-        h3{
-            font-size: 1.2em;
-        }
-        p{
-            font-size: 1.1em;
-        }
-        
-        hr{
-            border-radius: 3px;
-            margin-top: 1em;
-            border-bottom: 2px solid rgb(102, 102, 136);
-        }
-        
-        pre{
-            border-radius: 10px;
-        }
-        
-        .main{
-            width: 90%;
-            max-width: 1000px;
-            margin: 5vh auto;
-            min-height: 80vh;
-        }
-        #body{
-            
-            background-color: white;
-            padding: 30px;
-            
-            border-radius: 30px;
-            box-shadow: 0px 0px 10px rgb(171, 171, 171);
-        }
-        footer{
-            background-color:  rgb(52, 52, 74);
-            min-width: 15vh;
-            color: rgb(247, 247, 247);
-            text-align: center;
-            line-height: 1.5em;
-            padding-bottom: 2em;
-            padding-top: 2em;
-            font-size: 1.2em;
-            box-shadow: inset 0px -3px 15px rgb(15, 15, 19);
-        }</style>
-<script src="./prismjs/prism.js"></script>
 
-</body></html>
+</body>
+
+</html>
