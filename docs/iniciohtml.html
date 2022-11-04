@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title id="web-title">Getting Started in HTML</title>
+    <title id="web-title">Document</title>
 
     <link rel="stylesheet" href="./prismjs/prism.css">
 </head>
@@ -80,11 +80,71 @@
 <p>adicionalmente a esto podemos añadirle un atributo <strong>"alt"</strong> que permitirá colocar un texto a la imagen si esta no ha cargado o no se encontro.</p>
 <pre><code class="html language-html">    &lt;!--Uso de img con alt --&gt;
     &lt;img src="foto.png" alt="perfil"&gt;
-</code></pre></div>
+</code></pre>
+<hr>
+<h2 id="estructurabasicadeundocumentohtml">Estructura Basica de un documento html</h2>
+<p>Ya sabiendo algunas de las etiquetas escenciales, ahora vamos a ver la estructura base de un documento html.</p>
+<pre><code class="html language-html">    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code></pre>
+<p>Mucho Texto. . .</p>
+<p>Ahora vamos a despedazarlo en parte y ver que es cada una.</p>
+<pre><code class="html language-html">    &lt;!DOCTYPE html&gt;
+</code></pre>
+<ul>
+<li><p>Indica el tipo del documento, ya que la sintaxis o forma de escribir que usar html, tambien la usa otro tipo de archivos llamados xml, y para hacer la distincion se utiliza esta etiqueta.</p>
+<hr></li>
+</ul>
+<pre><code class="html language-html">    &lt;html lang="es"&gt; &lt;/html&gt;
+</code></pre>
+<ul>
+<li><p>Indica el cuerpo del documento y el atributo <strong>lang</strong> indica al navegador en que idima esta la pagina, y "<strong>es</strong>" es el codigo para español.</p>
+<hr></li>
+</ul>
+<pre><code class="html language-html">    &lt;head&gt; &lt;/head&gt;
+</code></pre>
+<ul>
+<li><p>Define la metadata (información que no se ve) de la pagina, tales como la configuracion de caracteres que se va a usar, los estilos que van a estar enlazados o el titulo de la pagina.</p>
+<hr></li>
+</ul>
+<pre><code class="html language-html">    &lt;meta charset="UTF-8"&gt;
+</code></pre>
+<ul>
+<li><p>la etiqueta meta permita configurar los metadatos de la pagina web, el atributto <strong>charset</strong> define la configuracion de caracteres para el alfabeto latino.</p>
+<hr></li>
+</ul>
+<pre><code class="html language-html">    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+</code></pre>
+<ul>
+<li><p>la etiqueta meta junto con el conjunto de atributos <strong>http-equiv="X-UA-Compatible" content="IE=edge"</strong> define la compatibilidad para Internet Explorer, esto se debe a que algunas versiones, ya no soportan las nuevas formas de css, js y contenido html.
+<em>Actualmente no es necesaria esta etiqueta, asique puedes saltartela.</em></p>
+<hr></li>
+</ul>
+<pre><code class="html language-html">    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+</code></pre>
+<ul>
+<li><p>esta linea define la escala de la pagina, para evitar que al bajar la resolucion la pagina se vea mas pequeña.</p>
+<hr></li>
+</ul>
+<pre><code class="html language-html">    &lt;title&gt;Document&lt;/title&gt;
+</code></pre>
+<ul>
+<li>la etiqueta title define que nombre tendra nuesta pagina en el futuro.</li>
+</ul></div>
     </section>
     <footer>
         <div>
-            💜 Esta Pagina fue creada por mi procesador de MD a HTML 💜<br>
+            💜 Esta Pagina fue creada por mi sistema de multi conversion de MD a HTML 💜<br>
             Blog Personal de Theking Of Shadows 98.
         </div>
     </footer>
